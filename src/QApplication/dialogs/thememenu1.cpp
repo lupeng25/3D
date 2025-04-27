@@ -1,0 +1,138 @@
+/****************************************************************************
+**
+
+** 
+****************************************************************************/
+
+#include "thememenu.h"
+#include "QFramer/futil.h"
+#include <QApplication>
+#include <QFileDialog>
+#include <QDir>
+#include <QSettings>
+ThemeMenu::ThemeMenu(QWidget *parent) :
+    QMenu(parent)
+{
+    initData();
+    initUI();
+    initConnect();
+}
+
+void ThemeMenu::initData()
+{
+	actionNames << tr("BW") << tr("BB") << tr("GB");// << tr("GG") << tr("GBG") << tr("GGG") \
+               <<tr("Custom theme")<<tr("Blank");
+	actionNamelst << ("BW") << ("BB") << ("GB");// << ("GG") << ("GBG") << ("GGG") \
+		<< ("Custom theme") << ("Blank");
+}
+
+void ThemeMenu::initUI()
+{
+    for(int i=0; i< actionNames.length() ; ++i)
+    {
+        actions.append(new QAction(actionNamelst.at(i), this));
+        actions.at(i)->setCheckable(true);
+		actions.at(i)->setText(actionNames[i]);
+		actions.at(i)->setToolTip(actionNames[i]);
+		actions.at(i)->setData(actionNamelst.at(i));
+        actionMaps[actionNamelst.at(i)] = actions.at(i);
+    }
+    addActions(actions);
+}
+
+void ThemeMenu::initConnect()
+{
+    connect(actionMaps[/*tr*/("BW")], SIGNAL(triggered()), this, SLOT(changeTheme1()));
+    connect(actionMaps[/*tr*/("BB")], SIGNAL(triggered()), this, SLOT(changeTheme2()));
+    connect(actionMaps[/*tr*/("GB")], SIGNAL(triggered()), this, SLOT(changeTheme3()));
+    //connect(actionMaps[/*tr*/("GG")], SIGNAL(triggered()), this, SLOT(changeTheme4()));
+    //connect(actionMaps[/*tr*/("GBG")], SIGNAL(triggered()), this, SLOT(changeTheme5()));
+    //connect(actionMaps[/*tr*/("GGG")], SIGNAL(triggered()), this, SLOT(changeTheme6()));
+    //connect(actionMaps[/*tr*/("Custom theme")], SIGNAL(triggered()), this, SLOT(changeThemeFromFile()));
+    //connect(actionMaps[/*tr*/("Blank")], SIGNAL(triggered()), this, SLOT(changeTheme_blank()));
+    connect(this, SIGNAL(triggered(QAction*)), this, SLOT(updateCheckedAction(QAction*)));
+}
+
+void ThemeMenu::Load()
+{
+	//切换语言
+	QSettings settings(QApplication::applicationDirPath() + "/config/config.ini", QSettings::IniFormat);
+	QString _strTheme = settings.value(QString("General/ThemeMenu"), "BW").toString();
+	if (actionMaps.contains(_strTheme))
+		actionMaps[_strTheme]->trigger();
+	settings.setValue(QString("General/ThemeMenu"), _strTheme);
+
+}
+
+void ThemeMenu::Save()
+{
+	QString strPath = QApplication::applicationDirPath();
+	//切换语言
+	QSettings settings(QApplication::applicationDirPath() + "/config/config.ini", QSettings::IniFormat);
+	QString _strTheme = settings.value(QString("General/ThemeMenu"), "BW").toString();
+	foreach(QAction* actionItem, actions) {
+		if (actionItem ->isChecked())
+		{
+			_strTheme = actionItem->data().toString();
+			break;
+		}
+	}
+	settings.setValue(QString("General/ThemeMenu"), _strTheme);
+}
+
+void ThemeMenu::changeTheme1()
+{
+    setSkinForApp(QString(":/skin/BW.qss"));
+}
+
+void ThemeMenu::changeTheme2()
+{
+    setSkinForApp(QString(":/skin/BB.qss"));
+}
+
+void ThemeMenu::changeTheme3()
+{
+    setSkinForApp(QString(":/skin/GB.qss"));
+}
+
+void ThemeMenu::changeTheme4()
+{
+    setSkinForApp(QString(":/skin/GG.qss"));
+}
+
+void ThemeMenu::changeTheme5()
+{
+    setSkinForApp(QString(":/skin/GBG.qss"));
+}
+
+void ThemeMenu::changeTheme6()
+{
+    setSkinForApp(QString(":/skin/GGG.qss"));
+}
+
+void ThemeMenu::changeTheme_blank()
+{
+    setSkinForApp(QString(""));
+}
+
+void ThemeMenu::changeThemeFromFile()
+{
+    QString fileName;
+    fileName = QFileDialog::getOpenFileName(this,
+        tr("Laod qss"), QDir::currentPath(), tr("Qss Files (*.qss)"));
+    if (fileName != ""){
+        setSkinForApp(fileName);
+    }
+}
+
+void ThemeMenu::updateCheckedAction(QAction *action)
+{
+    foreach (QAction* actionItem, actions) {
+        if(actionItem == action){
+            action->setChecked(true);
+        }else {
+            actionItem->setChecked(false);
+        }
+    }
+	Save();
+}

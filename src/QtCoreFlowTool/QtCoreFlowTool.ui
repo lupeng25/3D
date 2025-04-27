@@ -1,0 +1,29 @@
+<UI version="4.0" >
+ <class>QtCoreFlowToolClass</class>
+ <widget class="QMainWindow" name="QtCoreFlowToolClass" >
+  <property name="objectName" >
+   <string notr="true">QtCoreFlowToolClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>QtCoreFlowTool</string>
+  </property>
+  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
+  <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="QtCoreFlowTool.qrc"/>
+ </resources>
+ <connections/>
+</UI>

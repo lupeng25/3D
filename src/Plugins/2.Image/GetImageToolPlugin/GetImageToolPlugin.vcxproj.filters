@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CloudMesureToolPlugin.cpp" />
+    <ClCompile Include="frmImageGetSource.cpp" />
+    <ClCompile Include="GetImage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt" />
+    <CustomBuild Include="release\moc_predefs.h.cbt" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CloudMesureToolPlugin.h" />
+    <QtMoc Include="frmImageGetSource.h" />
+    <QtMoc Include="GetImage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CloudMesureToolPlugin.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtTranslation Include="getimagetoolplugin_zh.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+    <QtTranslation Include="getimagetoolplugin_en.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="frmImageGetSource.ui" />
+  </ItemGroup>
+</Project>

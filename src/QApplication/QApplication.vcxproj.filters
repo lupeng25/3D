@@ -1,0 +1,868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="QFramer">
+      <UniqueIdentifier>{dc26beaf-5f41-4769-9a64-0b1603bdeb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{0bfb370d-76d4-4688-9384-fac7f2db1a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{58c1d995-678d-4f93-be42-5128adea9739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{9e01f8c0-848f-4917-945d-1ebc89b35240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{fbc70d87-e55e-49f9-8b25-6069ff5b3407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Keys">
+      <UniqueIdentifier>{66ccc98f-d7ab-4e33-a856-f32fc3624e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\LogIn">
+      <UniqueIdentifier>{3000e9eb-9761-48ea-af2a-e93a361f4b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\SystemDialog">
+      <UniqueIdentifier>{489632bc-e9a7-414f-9bf2-41dde8ecd767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dump">
+      <UniqueIdentifier>{924d6f0e-caf0-428f-a7dd-b971107597a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionpages">
+      <UniqueIdentifier>{dc660c13-bdcd-489e-abf0-65bd79ec6fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Language">
+      <UniqueIdentifier>{c55fa30e-062d-429a-a3a0-7bdcfeb84fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{1ac64fa7-9442-4e1f-870f-dbe6e4d45326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ManuDebug">
+      <UniqueIdentifier>{7def00b9-3baf-4cca-a3e3-ffe710021ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ManuDebug\Vision">
+      <UniqueIdentifier>{41ed6910-43f5-4108-8869-39b42f50d1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pages">
+      <UniqueIdentifier>{e8883490-1ec2-46f3-9fc6-94e10e5304fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\About">
+      <UniqueIdentifier>{03ef4347-bbca-4a04-abe9-a9a60ed78715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget">
+      <UniqueIdentifier>{8e70af97-b572-453f-baa4-460c8c11afbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget\Flow">
+      <UniqueIdentifier>{015376bd-8d65-484d-8dcc-a03606afc10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Dialog\NetWork">
+      <UniqueIdentifier>{c2a0d923-9bf7-47a7-bc83-bd7fc74ed9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\GlobalVal">
+      <UniqueIdentifier>{70de21ea-c0f5-44ca-a115-2ffc6d06a38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\ImageLayout">
+      <UniqueIdentifier>{297771b7-bf63-4f31-b9de-428041b54656}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fbasedialog.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fbasepushbutton.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fcenterwindow.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fcheckablebutton.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\flywidget.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fmainwindow.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fmovablewidget.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fnavgationbar.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fnofocusdelegate.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fshadowlabel.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fstatebutton.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\ftabwidget.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\ftitlebar.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\ftoolbutton.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\futil.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="QFramer\fwigglywidget.cpp">
+      <Filter>QFramer</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ArcWidget.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CLinguist.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Dialogbase.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ipaddress.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MyMessageBox.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\QtSplashScreen.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ScrewWidget.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\vComboBox.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\dataVar.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase\FolderOperation.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase\SoftKey.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase\SQLite.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase\XML.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\Keys\QtKeyWidgets.cpp">
+      <Filter>Dialog\Keys</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\LogIn.cpp">
+      <Filter>Dialog\LogIn</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\userdialog.cpp">
+      <Filter>Dialog\LogIn</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\System\frmLogSet.cpp">
+      <Filter>Dialog\SystemDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\System\frmNormalSet.cpp">
+      <Filter>Dialog\SystemDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\System\frmPasswordSet.cpp">
+      <Filter>Dialog\SystemDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\System\frmStartSet.cpp">
+      <Filter>Dialog\SystemDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="functionpages\aboutpage.cpp">
+      <Filter>functionpages</Filter>
+    </ClCompile>
+    <ClCompile Include="functionpages\animationgradientlabel.cpp">
+      <Filter>functionpages</Filter>
+    </ClCompile>
+    <ClCompile Include="functionpages\ftablewidget.cpp">
+      <Filter>functionpages</Filter>
+    </ClCompile>
+    <ClCompile Include="functionpages\gradientshow.cpp">
+      <Filter>functionpages</Filter>
+    </ClCompile>
+    <ClCompile Include="functionpages\qssbuilder.cpp">
+      <Filter>functionpages</Filter>
+    </ClCompile>
+    <ClCompile Include="functionpages\uielement.cpp">
+      <Filter>functionpages</Filter>
+    </ClCompile>
+    <ClCompile Include="functionpages\waterview.cpp">
+      <Filter>functionpages</Filter>
+    </ClCompile>
+    <ClCompile Include="functionpages\waterwidget.cpp">
+      <Filter>functionpages</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\LogPage.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\operatelog.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\savelog.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\VisionClass.cpp">
+      <Filter>ManuDebug\Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Pages\QtStartWidgets.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Pages\QtWaitWidgetsClass.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Pages\QtWidgetsBase.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Pages\uiManuDebug.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Pages\WaitingSpinnerWidget.cpp">
+      <Filter>pages</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\aboutdialog.cpp">
+      <Filter>Dialog\About</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\settingmenu.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\settingmenucontroller.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\thememenu.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuDebug\QFlowChart.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuDebug\frmflow.cpp">
+      <Filter>Widget\Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuDebug\frmImageView.cpp">
+      <Filter>Widget\Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuDebug\frmLog.cpp">
+      <Filter>Widget\Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\videobox.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\videopanel.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuDebug\frmToolsTree.cpp">
+      <Filter>Widget\Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\qttreewidget.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuDebug\QtCenterWidgets.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuDebug\frmToolFlow.cpp">
+      <Filter>Widget\Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\NetWork\frmInstrumentation.cpp">
+      <Filter>Dialog\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\settingdialog.cpp">
+      <Filter>Dialog\SystemDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\NetWork\NetWorkdialog.cpp">
+      <Filter>Dialog\NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\GlobalVar\frmGlobalVariable.cpp">
+      <Filter>Dialog\GlobalVal</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\ImageLayOut\frmImageLayout.cpp">
+      <Filter>Dialog\ImageLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\System\frm3DSet.cpp">
+      <Filter>Dialog\SystemDialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\fbasedialog.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\fbasepushbutton.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\fcenterwindow.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\flywidget.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\fmainwindow.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\fmovablewidget.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\fnavgationbar.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\fnofocusdelegate.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\fshadowlabel.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\fstatebutton.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\ftabwidget.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\ftitlebar.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\ftoolbutton.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="QFramer\fwigglywidget.h">
+      <Filter>QFramer</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\ArcWidget.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\CLinguist.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\ipaddress.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\MyMessageBox.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\ScrewWidget.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\vComboBox.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\Keys\QtKeyWidgets.h">
+      <Filter>Dialog\Keys</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\LogIn.h">
+      <Filter>Dialog\LogIn</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\userdialog.h">
+      <Filter>Dialog\LogIn</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\System\frmLogSet.h">
+      <Filter>Dialog\SystemDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\System\frmNormalSet.h">
+      <Filter>Dialog\SystemDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\System\frmPasswordSet.h">
+      <Filter>Dialog\SystemDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\System\frmStartSet.h">
+      <Filter>Dialog\SystemDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="functionpages\aboutpage.h">
+      <Filter>functionpages</Filter>
+    </QtMoc>
+    <QtMoc Include="functionpages\animationgradientlabel.h">
+      <Filter>functionpages</Filter>
+    </QtMoc>
+    <QtMoc Include="functionpages\ftablewidget.h">
+      <Filter>functionpages</Filter>
+    </QtMoc>
+    <QtMoc Include="functionpages\gradientshow.h">
+      <Filter>functionpages</Filter>
+    </QtMoc>
+    <QtMoc Include="functionpages\qssbuilder.h">
+      <Filter>functionpages</Filter>
+    </QtMoc>
+    <QtMoc Include="functionpages\uielement.h">
+      <Filter>functionpages</Filter>
+    </QtMoc>
+    <QtMoc Include="functionpages\waterview.h">
+      <Filter>functionpages</Filter>
+    </QtMoc>
+    <QtMoc Include="functionpages\waterwidget.h">
+      <Filter>functionpages</Filter>
+    </QtMoc>
+    <QtMoc Include="Log\LogPage.h">
+      <Filter>Log</Filter>
+    </QtMoc>
+    <QtMoc Include="Log\operatelog.h">
+      <Filter>Log</Filter>
+    </QtMoc>
+    <QtMoc Include="Log\savelog.h">
+      <Filter>Log</Filter>
+    </QtMoc>
+    <QtMoc Include="Pages\QtStartWidgets.h">
+      <Filter>pages</Filter>
+    </QtMoc>
+    <QtMoc Include="Pages\QtWaitWidgetsClass.h">
+      <Filter>pages</Filter>
+    </QtMoc>
+    <QtMoc Include="Pages\QtWidgetsBase.h">
+      <Filter>pages</Filter>
+    </QtMoc>
+    <QtMoc Include="Pages\uiManuDebug.h">
+      <Filter>pages</Filter>
+    </QtMoc>
+    <QtMoc Include="Pages\WaitingSpinnerWidget.h">
+      <Filter>pages</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\QtSplashScreen.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\aboutdialog.h">
+      <Filter>Dialog\About</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\settingmenu.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\settingmenucontroller.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\thememenu.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="MenuDebug\QFlowChart.h">
+      <Filter>Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="MenuDebug\frmflow.h">
+      <Filter>Widget\Flow</Filter>
+    </QtMoc>
+    <QtMoc Include="MenuDebug\frmImageView.h">
+      <Filter>Widget\Flow</Filter>
+    </QtMoc>
+    <QtMoc Include="MenuDebug\frmLog.h">
+      <Filter>Widget\Flow</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\videobox.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\videopanel.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="MenuDebug\frmToolsTree.h">
+      <Filter>Widget\Flow</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\qttreewidget.h">
+      <Filter>Common</Filter>
+    </QtMoc>
+    <QtMoc Include="MenuDebug\QtCenterWidgets.h">
+      <Filter>Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="MenuDebug\frmToolFlow.h">
+      <Filter>Widget\Flow</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\NetWork\frmInstrumentation.h">
+      <Filter>Dialog\NetWork</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\settingdialog.h">
+      <Filter>Dialog\SystemDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\NetWork\NetWorkdialog.h">
+      <Filter>Dialog\NetWork</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\GlobalVar\frmGlobalVariable.h">
+      <Filter>Dialog\GlobalVal</Filter>
+    </QtMoc>
+    <QtMoc Include="dialogs\ImageLayOut\frmImageLayout.h">
+      <Filter>Dialog\ImageLayout</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon\gallery\Adobe.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\Align-Center.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\Align-Left.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\Align-Right.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\ContextCategory.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\Decrease-Indent.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\Decrease-Margin.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Document-File.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Download-File.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Drive-File.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Dropbox-File.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Email-File.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Encode-File.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Favorit-File.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\File-Error.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\File-Readonly.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\File-Settings.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Google-Maps.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Illustrator.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Internet-Explorer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\Italic.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Left.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Photoshop.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Presentation-File.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Right.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\SA.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\Underline.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\gallery\Word.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\Wrap-Image">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\action.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\action2.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\action3.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\action4.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\al-bothside.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\al-center.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\al-left.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\al-right.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\bold.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\chinese-char.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\customize.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\customize0.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\delete.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\deleteContext.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\disable.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\enableTest.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\file.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\folder-checkmark.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\folder-cog.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\folder-star.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\folder-stats.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\folder-table.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\help.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\hidePannel.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\hideRibbon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\item.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\largerFont.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\layout.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\long-text.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\presentationFile.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\redo.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\remove-app-btn.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\remove.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\removePage.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="saribbonresouce.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="icon\save.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\setText.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\show.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\showContext.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\showHideButton.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\smallFont.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\test1.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\test2.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\undo.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\unlock.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\useCustomize.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\useqss.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\visible-false.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\visible-true.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\windowsflag-normal.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon\wordwrap.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QFramer\fcheckablebutton.h">
+      <Filter>QFramer</Filter>
+    </ClInclude>
+    <ClInclude Include="QFramer\futil.h">
+      <Filter>QFramer</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Dialogbase.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\CommonClass.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\dataVar.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase\QWorld.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump\DADumpCapture.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\VisionClass.h">
+      <Filter>ManuDebug\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogs\System\frm3DSet.h">
+      <Filter>Dialog\SystemDialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="dialogs\LogIn.ui">
+      <Filter>Dialog\LogIn</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\System\frmLogSet.ui">
+      <Filter>Dialog\SystemDialog</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\System\frmNormalSet.ui">
+      <Filter>Dialog\SystemDialog</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\System\frmPasswordSet.ui">
+      <Filter>Dialog\SystemDialog</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\System\frmStartSet.ui">
+      <Filter>Dialog\SystemDialog</Filter>
+    </QtUic>
+    <QtUic Include="Pages\QtStartWidgets.ui">
+      <Filter>pages</Filter>
+    </QtUic>
+    <QtUic Include="Pages\QtWaitWidgetsClass.ui">
+      <Filter>pages</Filter>
+    </QtUic>
+    <QtUic Include="MenuDebug\QFlowChart.ui">
+      <Filter>Widget</Filter>
+    </QtUic>
+    <QtUic Include="MenuDebug\frmflow.ui">
+      <Filter>Widget\Flow</Filter>
+    </QtUic>
+    <QtUic Include="MenuDebug\frmImageView.ui">
+      <Filter>Widget\Flow</Filter>
+    </QtUic>
+    <QtUic Include="MenuDebug\frmLog.ui">
+      <Filter>Widget\Flow</Filter>
+    </QtUic>
+    <QtUic Include="MenuDebug\frmToolsTree.ui">
+      <Filter>Widget\Flow</Filter>
+    </QtUic>
+    <QtUic Include="MenuDebug\QtCenterWidgets.ui">
+      <Filter>Widget</Filter>
+    </QtUic>
+    <QtUic Include="MenuDebug\frmToolFlow.ui">
+      <Filter>Widget\Flow</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\NetWork\frmInstrumentation.ui">
+      <Filter>Dialog\NetWork</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\GlobalVar\frmGlobalVariable.ui">
+      <Filter>Dialog\GlobalVal</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\ImageLayOut\frmImageLayout.ui">
+      <Filter>Dialog\ImageLayout</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\System\frm3DSet.ui">
+      <Filter>Dialog\SystemDialog</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtTranslation Include="Language\QApplication_zh.ts">
+      <Filter>Language</Filter>
+    </QtTranslation>
+    <QtTranslation Include="Language\QApplication_en.ts">
+      <Filter>Language</Filter>
+    </QtTranslation>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QApplication.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon\images\QApplication.ico" />
+  </ItemGroup>
+</Project>

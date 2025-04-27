@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmToolFlowClass</class>
+ <widget class="QWidget" name="frmToolFlowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>250</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>流程管理</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="ToolTreeFrame">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget{border: 1px;border-style: solid;border-color: #d9d9d9}
+QTreeWidget::item{color: #363636}
+QTreeWidget::item{height: 30px}
+QTreeView::item::selected{background-color:#96B5A8}
+
+QTreeWidget::branch:closed:has-children:!has-siblings{border-style: none; image: url(:/images/images/Open.png);}
+QTreeWidget::branch:closed:has-children:has-siblings{border-image: none; image: url(:/images/images/Open.png);}
+QTreeWidget::branch:open:has-children:!has-siblings{border-image: none; image: url(:/images/images/new2.png);}
+QTreeWidget::branch:open:has-children:has-siblings{border-image: none; image: url(:/images/images/new2.png);}
+QScrollBar:vertical{ 
+	background:#FFFFF2; 
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:2px; 
+	padding-right:2px; 
+	border-left:1px solid #d7d7d7;
+} 
+QScrollBar::handle:vertical{ //滑块样式  
+	background:#dbdbdb;  //滑块颜色  
+	border-radius:6px;   //边角圆
+	min-height:20px;
+}    //滑块最小高度
+QScrollBar::handle:vertical:hover{ //鼠标触及滑块样式  
+	background:#d0d0d0;
+} //滑块颜色  
+QScrollBar::add-line:vertical{ //向下箭头样式  
+	background:url(:/QtApplication/Bitmaps/down.png) center no-repeat;
+}
+QScrollBar::sub-line:vertical{ //向上箭头样式
+	background:url(:/QtApplication/Bitmaps/up.png) center no-repeat;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../saribbonresouce.qrc"/>
+ </resources>
+ <connections/>
+</ui>

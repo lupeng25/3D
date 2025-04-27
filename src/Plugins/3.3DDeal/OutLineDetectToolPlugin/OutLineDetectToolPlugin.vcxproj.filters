@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CloudMesureToolPlugin.cpp" />
+    <ClCompile Include="frmOutLineDetectTool.cpp" />
+    <ClCompile Include="OutLineDetectTool.cpp" />
+    <ClCompile Include="..\..\..\..\Include\Qcustomplot\qcustomplot.cpp">
+      <Filter>Qcustomplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Include\Qcustomplot\smoothcurve.cpp">
+      <Filter>Qcustomplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Include\Qcustomplot\XxwCustomPlot.cpp">
+      <Filter>Qcustomplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Include\Qcustomplot\XxwTracer.cpp">
+      <Filter>Qcustomplot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CloudMesureToolPlugin.h" />
+    <QtMoc Include="frmOutLineDetectTool.h" />
+    <QtMoc Include="OutLineDetectTool.h" />
+    <QtMoc Include="..\..\..\..\Include\Qcustomplot\qcustomplot.h">
+      <Filter>Qcustomplot</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Include\Qcustomplot\XxwCustomPlot.h">
+      <Filter>Qcustomplot</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Include\Qcustomplot\XxwTracer.h">
+      <Filter>Qcustomplot</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="frmOutLineDetectTool.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CloudMesureToolPlugin.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Qcustomplot">
+      <UniqueIdentifier>{c3311eba-d3c0-44d8-b0e3-28758a40e116}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtTranslation Include="outlinedetecttoolplugin_zh.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+    <QtTranslation Include="outlinedetecttoolplugin_en.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Include\Qcustomplot\smoothcurve.h">
+      <Filter>Qcustomplot</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

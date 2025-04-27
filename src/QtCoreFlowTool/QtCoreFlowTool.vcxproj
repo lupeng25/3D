@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Include\ImageShow\BaseItem.cpp" />
+    <ClCompile Include="..\..\Include\ImageShow\ImageItem.cpp" />
+    <ClCompile Include="..\..\Include\ImageShow\QGraphicsScenes.cpp" />
+    <ClCompile Include="..\..\Include\ImageShow\QGraphicsViews.cpp" />
+    <ClCompile Include="basemainwindow.cpp" />
+    <ClCompile Include="databaseVar.cpp" />
+    <ClCompile Include="FlowchartTool.cpp" />
+    <ClCompile Include="frmAllVariableTool.cpp" />
+    <ClCompile Include="frmBase.cpp" />
+    <ClCompile Include="frmBaseTool.cpp" />
+    <ClCompile Include="frmSetBase.cpp" />
+    <ClCompile Include="ImageView.cpp" />
+    <ClCompile Include="ImgGraphicsViews.cpp" />
+    <ClCompile Include="MyEvent.cpp" />
+    <ClCompile Include="mytitlebar.cpp" />
+    <ClCompile Include="NetWork\ComSocket.cpp" />
+    <ClCompile Include="NetWork\gvariable.cpp" />
+    <ClCompile Include="notify.cpp" />
+    <ClCompile Include="notifymanager.cpp" />
+    <ClCompile Include="QDoubleSlider.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtbuttonpropertybrowser.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtgroupboxpropertybrowser.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtpropertybrowser.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtpropertybrowserutils.cpp" />
+    <ClCompile Include="qtpropertybrowser\qtvariantproperty.cpp" />
+    <QtMoc Include="qtpropertybrowser\qttreepropertybrowser.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).moc</QtMocFileName>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(Filename).moc</QtMocFileName>
+    </QtMoc>
+    <QtMoc Include="qtpropertybrowser\qtpropertymanager.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).moc</QtMocFileName>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(Filename).moc</QtMocFileName>
+    </QtMoc>
+    <QtMoc Include="qtpropertybrowser\qteditorfactory.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).moc</QtMocFileName>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(Filename).moc</QtMocFileName>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\Include\QDoubleSlider.h" />
+    <QtMoc Include="..\..\Include\FlowchartTool.h" />
+    <QtMoc Include="..\..\Include\basemainwindow.h" />
+    <ClInclude Include="..\..\Include\CnComm.h" />
+    <QtMoc Include="..\..\Include\ComSocket.h" />
+    <ClInclude Include="..\..\Include\databaseVar.h" />
+    <QtMoc Include="..\..\Include\ImageShow\BaseItem.h" />
+    <QtMoc Include="..\..\Include\ImageShow\ImageItem.h" />
+    <QtMoc Include="..\..\Include\ImageShow\QGraphicsScenes.h" />
+    <QtMoc Include="..\..\Include\ImageShow\QGraphicsViews.h" />
+    <QtMoc Include="..\..\Include\frmBaseTool.h" />
+    <QtMoc Include="..\..\Include\frmAllVariableTool.h" />
+    <QtMoc Include="..\..\Include\frmBase.h" />
+    <QtMoc Include="..\..\Include\frmSetBase.h" />
+    <ClInclude Include="..\..\Include\gvariable.h" />
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtbuttonpropertybrowser.h">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DynamicSource>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qteditorfactory.h">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DynamicSource>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtgroupboxpropertybrowser.h">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DynamicSource>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtpropertybrowser.h">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DynamicSource>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtpropertybrowserutils_p.h" />
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtpropertymanager.h">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DynamicSource>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qttreepropertybrowser.h">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DynamicSource>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtvariantproperty.h">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DynamicSource>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\mytitlebar.h" />
+    <QtMoc Include="..\..\Include\ImageShow\ImageView.h" />
+    <QtMoc Include="..\..\Include\ImageShow\ImgGraphicsViews.h" />
+    <ClInclude Include="..\..\Include\MyEvent.h" />
+    <QtMoc Include="..\..\Include\notify.h" />
+    <QtMoc Include="..\..\Include\notifymanager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qtpropertybrowser\qtpropertybrowser.pri" />
+    <None Include="qtpropertybrowser\qtpropertybrowserutils.pri" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="qtpropertybrowser\qtpropertybrowser.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtTranslation Include="qtcoreflowtool_en.ts" />
+    <QtTranslation Include="qtcoreflowtool_zh.ts">
+      <SubType>Designer</SubType>
+    </QtTranslation>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="frmAllVariableTool.ui" />
+    <QtUic Include="frmBaseTool.ui" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <Keyword>QtVS_v300</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <QtInstall>msvc2015_64</QtInstall>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <QtInstall>msvc2015_64</QtInstall>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtModules>core;gui;network;serialport;widgets</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtModules>core;xml;sql;opengl;gui;widgets;serialport;printsupport;quick;concurrent;openglextensions;charts;concurrent;</QtModules>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include\FlowChart\;$(SolutionDir)Include\ImageShow\;$(SolutionDir)Include\Halcon\halconcpp\;$(SolutionDir)Include\qtpropertybrowser;$(SolutionDir)Include\Halcon\;$(SolutionDir)Include\Vision\;$(SolutionDir)Include\;$(ProjectDir);$(SolutionDir)Include\flow\;C:\Qt\5.12.9\msvc2015_64\include\QtConcurrent;$(Qt_INCLUDEPATH_);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_COREFLOWTOOL_EXPORT_;_LICENCE_EXPORT_;_CAMERAMANAGER_EXPORT_;_PLUGINSMANAGER_EXPORT_;_PORT_EXPORT_;_NODE_EXPORT_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\Halcon\;$(Qt_LIBPATH_);C:\Qt\Qt5.12.9\5.12.9\msvc2015_64\lib;$(SolutionDir)Bin\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>halconcpp.lib;Qt5Concurrent.lib;QtCoreKeyTool.lib;Qt5OpenGL.lib;Qt5OpenGLExtensions.lib;opengl32.lib;$(Qt_LIBS_);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtTranslation>
+      <BuildAction>lupdate_lrelease</BuildAction>
+      <QmOutputFile>Language\%(Filename).qm</QmOutputFile>
+    </QtTranslation>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

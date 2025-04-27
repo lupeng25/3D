@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Qcustomplot">
+      <UniqueIdentifier>{91635141-2e4b-4402-88a2-904820f90ea0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtTranslation Include="gluemeasuretoolplugin_zh.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+    <QtTranslation Include="gluemeasuretoolplugin_en.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CloudMesureToolPlugin.cpp" />
+    <ClCompile Include="frmGlueMeasureTool.cpp" />
+    <ClCompile Include="GlueMeasureTool.cpp" />
+    <ClCompile Include="..\..\..\..\Include\Qcustomplot\qcustomplot.cpp">
+      <Filter>Qcustomplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Include\Qcustomplot\smoothcurve.cpp">
+      <Filter>Qcustomplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Include\Qcustomplot\XxwCustomPlot.cpp">
+      <Filter>Qcustomplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Include\Qcustomplot\XxwTracer.cpp">
+      <Filter>Qcustomplot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="frmGlueMeasureTool.h" />
+    <QtMoc Include="GlueMeasureTool.h" />
+    <QtMoc Include="CloudMesureToolPlugin.h" />
+    <QtMoc Include="..\..\..\..\Include\Qcustomplot\qcustomplot.h">
+      <Filter>Qcustomplot</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Include\Qcustomplot\XxwCustomPlot.h">
+      <Filter>Qcustomplot</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\Include\Qcustomplot\XxwTracer.h">
+      <Filter>Qcustomplot</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="frmGlueMeasureTool.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CloudMesureToolPlugin.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Include\Qcustomplot\smoothcurve.h">
+      <Filter>Qcustomplot</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

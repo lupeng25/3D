@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera3DSSZNPlugin.cpp" />
+    <ClCompile Include="Camera3D_SSZN.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt" />
+    <CustomBuild Include="release\moc_predefs.h.cbt" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Camera3DSSZNPlugin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Camera3DSSZNPlugin.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera3D_SSZN.h" />
+  </ItemGroup>
+</Project>

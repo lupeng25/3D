@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Keys">
+      <UniqueIdentifier>{03f26e32-a929-4f79-8704-5d940122b375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlowTool">
+      <UniqueIdentifier>{5b6873d5-5576-4753-8090-c3c68c1b0a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageShow">
+      <UniqueIdentifier>{f9898855-f1d6-4397-b5da-cd7633a50fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qtpropertybrowser">
+      <UniqueIdentifier>{98d98987-8ef4-4b10-bb7a-1d104ecaae28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="AllVariable">
+      <UniqueIdentifier>{6844fbb7-1c85-441c-b4e8-aa906064d341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWork">
+      <UniqueIdentifier>{6cb066d7-55c8-4cb5-b13c-43e1bd8d03ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notify">
+      <UniqueIdentifier>{20b9ae03-241e-4308-957b-220260bb52aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlowChart\flowchar_graphics_item_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowChart\flowchar_graphics_link.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowChart\flowchart_graphics_item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowChart\FlowGraphicsViews.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowChart\NodeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowChart\Port.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowChart\ToolTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowChart\CameraManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowChart\PluginsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keys\licence.cpp">
+      <Filter>Keys</Filter>
+    </ClCompile>
+    <ClCompile Include="Keys\qaesencryption.cpp">
+      <Filter>Keys</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowchartTool.cpp">
+      <Filter>FlowTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Include\ImageShow\BaseItem.cpp">
+      <Filter>ImageShow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Include\ImageShow\ImageItem.cpp">
+      <Filter>ImageShow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Include\ImageShow\QGraphicsScenes.cpp">
+      <Filter>ImageShow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Include\ImageShow\QGraphicsViews.cpp">
+      <Filter>ImageShow</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtbuttonpropertybrowser.cpp">
+      <Filter>qtpropertybrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtgroupboxpropertybrowser.cpp">
+      <Filter>qtpropertybrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtpropertybrowser.cpp">
+      <Filter>qtpropertybrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtpropertybrowserutils.cpp">
+      <Filter>qtpropertybrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="qtpropertybrowser\qtvariantproperty.cpp">
+      <Filter>qtpropertybrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="basemainwindow.cpp">
+      <Filter>FlowTool</Filter>
+    </ClCompile>
+    <ClCompile Include="frmBaseTool.cpp">
+      <Filter>FlowTool</Filter>
+    </ClCompile>
+    <ClCompile Include="mytitlebar.cpp">
+      <Filter>FlowTool</Filter>
+    </ClCompile>
+    <ClCompile Include="frmAllVariableTool.cpp">
+      <Filter>AllVariable</Filter>
+    </ClCompile>
+    <ClCompile Include="frmBase.cpp">
+      <Filter>AllVariable</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEvent.cpp">
+      <Filter>FlowTool</Filter>
+    </ClCompile>
+    <ClCompile Include="databaseVar.cpp">
+      <Filter>Form Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\gvariable.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\ComSocket.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="notifymanager.cpp">
+      <Filter>notify</Filter>
+    </ClCompile>
+    <ClCompile Include="notify.cpp">
+      <Filter>notify</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\FlowChart\flowchar_graphics_item_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\FlowChart\Port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\FlowChart\ToolTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Vision\Camerainterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Vision\Pluginterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Vision\CameraManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Vision\PluginsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys\aesni-enc-cbc.h">
+      <Filter>Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys\aesni-enc-ecb.h">
+      <Filter>Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys\aesni-key-exp.h">
+      <Filter>Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys\aesni-key-init.h">
+      <Filter>Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\licence.h">
+      <Filter>Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\MyEvent.h">
+      <Filter>FlowTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\databaseVar.h">
+      <Filter>Form Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Comm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\CnComm.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\gvariable.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\Include\FlowChart\flowchar_graphics_link.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\FlowChart\flowchart_graphics_item.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\FlowChart\FlowGraphicsViews.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\FlowChart\NodeManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Keys\qaesencryption.h">
+      <Filter>Keys</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\FlowchartTool.h">
+      <Filter>FlowTool</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\ImageShow\BaseItem.h">
+      <Filter>ImageShow</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\ImageShow\ImageItem.h">
+      <Filter>ImageShow</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\ImageShow\QGraphicsScenes.h">
+      <Filter>ImageShow</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\ImageShow\QGraphicsViews.h">
+      <Filter>ImageShow</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtbuttonpropertybrowser.h">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qteditorfactory.h">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtgroupboxpropertybrowser.h">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtpropertybrowser.h">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtpropertybrowserutils_p.h">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtpropertymanager.h">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qttreepropertybrowser.h">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\qtpropertybrowser\qtvariantproperty.h">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="qtpropertybrowser\qteditorfactory.cpp">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="qtpropertybrowser\qtpropertymanager.cpp">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="qtpropertybrowser\qttreepropertybrowser.cpp">
+      <Filter>qtpropertybrowser</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\basemainwindow.h">
+      <Filter>FlowTool</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\frmBaseTool.h">
+      <Filter>FlowTool</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\mytitlebar.h">
+      <Filter>FlowTool</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\frmAllVariableTool.h">
+      <Filter>AllVariable</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\frmBase.h">
+      <Filter>AllVariable</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\ComSocket.h">
+      <Filter>NetWork</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\notifymanager.h">
+      <Filter>notify</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\Include\notify.h">
+      <Filter>notify</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qtpropertybrowser\qtpropertybrowser.pri">
+      <Filter>qtpropertybrowser</Filter>
+    </None>
+    <None Include="qtpropertybrowser\qtpropertybrowserutils.pri">
+      <Filter>qtpropertybrowser</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="qtpropertybrowser\qtpropertybrowser.qrc">
+      <Filter>qtpropertybrowser</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtTranslation Include="qtcoreflowtool_zh.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+    <QtTranslation Include="qtcoreflowtool_en.ts">
+      <Filter>Translation Files</Filter>
+    </QtTranslation>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="frmBaseTool.ui">
+      <Filter>FlowTool</Filter>
+    </QtUic>
+    <QtUic Include="frmAllVariableTool.ui">
+      <Filter>AllVariable</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
